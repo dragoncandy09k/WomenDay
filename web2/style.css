@@ -1,6 +1,7 @@
 * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 
-:root { --env-w: min(300px, 78vw); }
+:root { --env-w: min(300px, 78vw);
+        color-scheme: light; }
 
 html, body { height: 100%; }
 .body-letter {
