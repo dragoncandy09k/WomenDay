@@ -9,8 +9,8 @@
 // ---------------- CONFIGURATION ----------------
 const CONFIG = {
   VIDEO_URL: '../web2/index.html', // URL video hoặc trang đích khi mở rương
-  ENABLE_BACKEND_POLL: false,      // Bật true khi nối backend polling
-  BACKEND_API_URL: 'http://localhost:3000/api/keys',    // API endpoint lấy keys
+  ENABLE_BACKEND_POLL: true,      // Bật true khi nối backend polling
+  BACKEND_API_URL: 'https://womenday-lmhp.onrender.com/api/keys',    // API endpoint lấy keys
   POLL_INTERVAL: 3000              // Chu kỳ polling (ms)
 };
 
