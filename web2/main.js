@@ -1,5 +1,5 @@
-// Web2: phong bi + mo thiep only. id tu ?id=01..15 -> lay chuc rieng tu data.js
-const API_BASE = "http://localhost:3000"; // vd: "https://xxx.onrender.com" khi deploy that, de trong khi test local
+// Web2: phong bi + mo thiep only. id tu ?id=01.. -> lay chuc rieng tu data.js
+const API_BASE = "https://womenday-lmhp.onrender.com"; // vd: "https://xxx.onrender.com" khi deploy that, de trong khi test local
 
 const params = new URLSearchParams(location.search);
 const myId = params.get("id") || "01";
