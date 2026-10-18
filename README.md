@@ -74,7 +74,7 @@ WomenDay/
 - Nhớ thêm `cors()` (Pages gọi chéo sang Render) và `app.listen(process.env.PORT || 3000)`.
 - 15 người song song: Node xử lý nối tiếp, không mất lượt.
 
-## 6. QR — tạo 1 lần, dùng cả event
+## 6. QR
 
 - Mỗi QR chứa 1 link: `https://tenban.github.io/20-10/web2/?id=XX`.
 - Chạy `tools/generate-qr.js` với `BASE_URL` thật 1 lần → `qr/01.png … 15.png` → in ra phát tay.
@@ -89,11 +89,10 @@ WomenDay/
 4. Phát 15 QR đúng người.
 5. Quét thử 1–2 QR, xem Web 1 nhảy 🔑 là xong.
 
-## 8. Các quyết định đã chốt với nhau
+## 8. Mục tiêu
 
 - Backend đơn giản kiểu SuperSimpleDev (Express + `fetch`, không DB).
 - Từ "mỗi visit +1" chuyển sang **mỗi QR riêng + mỗi id +1 lần** (chống F5 spam, hiện `x/15` đẹp hơn).
 - Frontend GitHub Pages + backend Render riêng (Pages không chạy được Node).
-- Bỏ hoa mở đầu/animation cuối ở mẫu tham khảo, chỉ giữ phong bì + mở thiệp.
-- Bỏ đánh máy → thư trượt từ dưới lên; phông Be Vietnam Pro; tim SVG bay luôn.
-- Ảnh: `images/main1` (Web 1) / `images/main2` (Web 2), logo tách nền PNG.
+- Thư trượt từ dưới lên; phông Be Vietnam Pro; tim SVG bay luôn.
+- Ảnh: `images/main1` (Web 1) / `images/main2` (Web 2), logo.
