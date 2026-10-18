@@ -3,7 +3,7 @@
 const PEOPLE = [
   { id: "01", name: "TEST", wish: "Chuc 20/10 vui ve!", img: "../images/main2/01.jpg" },
 
-  { id: "02", name: "Minh Châm", wish: "Chúc Châm ngày 20/10 thật nhiều niềm vui! Mong mọi kế hoạch học tập của cậu đều thuận lợi, học tập tốt và gặt hái được nhiều thành công trên con đường sắp tới. Hãy cứ luôn 'tự tin là chính mình' vì cậu dễ thương hơn cậu nghĩ nhiều đó! ❤️", img: "../images/main2/Cham.jpg" },
+  { id: "02", name: "Minh Châm", wish: "Chúc Châm ngày 20/10 thật nhiều niềm vui! Mong mọi kế hoạch học tập của cậu đều thuận lợi, học tập tốt và gặt hái được nhiều thành công trên con đường sắp tới. Hãy cứ luôn 'tự tin là chính mình' vì cậu tuyệt vời hơn cậu nghĩ nhiều đó! ❤️", img: "../images/main2/Cham.jpg" },
   { id: "03", name: "Thuỳ Dương", wish: "Nhân ngày 20/10, trai A2K26 chúc Dương luôn xinh đẹp, rạng rỡ và đạt thêm nhiều cột mốc mới. Mong mọi mục tiêu học tập cậu đề ra đều đạt được một cách nhẹ nhàng nhất. Chúc cậu có một ngày thật trọn vẹn và luôn hạnh phúc với phiên bản tốt nhất của chính mình. ❤️", img: "../images/main2/Duong.jpg" },
   { id: "04", name: "Ngân Giang", wish: "Nhân ngày 20/10, trai A2k26 chúc Giang luôn xinh đẹp, rạng rỡ và có một ngày thật nhiều niềm vui. Cảm ơn bạn vì đã là những mảnh ghép không thể thiếu của lớp. Mong rằng bạn sẽ luôn giữ được sự tự tin và luôn rạng rỡ trong ngày 20/10 này! ", img: "../images/main2/giang.jpg" },
   { id: "05", name: "Phương Ly", wish: "Mừng ngày 20/10 trai A2k26 chúc Ly có một ngày tràn ngập niềm vui! Cảm ơn cậu vì đã góp phần lưu trữ kỉ niệm, góp phần tô lên màu sắc cho tập thể lớp. Chúc cậu luôn tự tin và luôn hạnh phúc theo cách của riêng mình! ❤️", img: "../images/main2/Ly.jpg" },
