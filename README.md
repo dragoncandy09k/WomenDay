@@ -1,3 +1,5 @@
+Ngày 19, tháng 10, năm 2026
+
 # Project 20/10 — Rương & Thiệp (2 Website + Backend)
 
 Project chạy 1 ngày, dưới 15 người.
